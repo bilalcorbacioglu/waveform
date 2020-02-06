@@ -1,0 +1,21 @@
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+#canvases {
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+}
+
+#cursor-canvas {
+    position: absolute;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: grey;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
